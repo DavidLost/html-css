@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+body, p, .caixa{
+    margin: 0;
+    padding: 0;
+
+}
+.caixa{
+    background-color: rgba(255, 0, 0, 0.329);
+   display: flex;
+   justify-content: end;
+   align-items: start;
+   height: 200px;
+   
+}
+    
+.caixa > div{
+    
+    background-color: rgba(54, 153, 153, 0.884);
+    box-shadow: 1px 1px 2px black;
+    border: 2px solid black;
+    margin: 10px;
+    
+}
+
+
+    
