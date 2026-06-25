@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes de tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 400px;
+            height: 400px;
+            margin: auto;
+            background-attachment: fixed;
+            
+
+        }
+        th, td {
+            border: 2px solid black;
+        }
+        td {
+            height: 50px;
+            text-align: center;
+            padding: 10px 10px;
+        }
+
+        tr.cpracista {
+            background-color: rgba(255, 0, 0, 0.397);
+        }
+
+        tr.clavação {
+            background-color: rgba(0, 0, 255, 0.582);
+        }
+
+        tr.ctratamento {
+            background-color: rgba(0, 0, 0, 0.555);
+        }
+
+        .coringa {
+            background-color:bisque;
+        }
+
+        .operador {
+            background-color:darkgoldenrod;
+        }
+
+        
+    </style>
+</head>
+<body>
+    
+    <table>
+        
+        <thead>
+            <tr>
+                <th colspan="4">Efetivo Noturno</th>
+                
+            </tr>
+
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Cargo</th>
+                <th scope="col">Setor</th>
+                <th scope="col">Presença</th>
+                
+            </tr>
+            
+        </thead>
+
+        <tbody>
+
+            <tr class="cpracista">
+                <td>Cleber</td>
+                <td>ASG</td>
+                <td>Pracista</td>
+                <td>PResença</td>
+            </tr>
+            
+            <tr class="cpracista">
+                <td>Camilly</td>
+                <td>ASG</td>
+                <td>Pracista</td>
+                <td>Presença</td>
+            </tr>
+
+            <tr class="cpracista">
+                <td>David</td>
+                <td>ASG</td>
+                <td>Pracista</td>
+                <td>Presença</td>
+                
+            </tr>
+
+            <tr class="cpracista">
+                <td>Marianna</td>
+                <td>ASG</td>
+                <td>Pracista</td>
+                <td>Presença</td>
+            </tr>
+
+            <tr class="cpracista">
+                <td>Roseli</td>
+                <td>ASG</td>
+                <td>Pracista</td>
+                <td>Presença</td>
+            </tr>
+
+            <tr class="cpracista">
+                <td>Bruna</td>
+                <td>ASG</td>
+                <td>Pracista</td>
+                <td>Presença</td>
+            </tr>
+
+            <tr class="clavação">
+                <td>Alexandre</td>
+                <td>ASG</td>
+                <td>Lavação de Ruas</td>
+                <td>Presença</td>
+            </tr>
+
+            <tr class="clavação">
+                <td>Fernando</td>
+                <td>ASG</td>
+                <td>Lavação de Ruas</td>
+                <td>Presença</td>
+            </tr>
+
+            <tr class="clavação">
+                <td>Vanda</td>
+                <td>ASG</td>
+                <td>Lavação de Ruas</td>
+                <td>Presença</td>
+            </tr>
+
+            <tr class="ctratamento">
+                <td>Jorge</td>
+                <td>ASG</td>
+                <td>Tratamento de Piso</td>
+                <td>Presença</td>
+            </tr>
+
+            <tr class="ctratamento">
+                <td>Marcelo</td>
+                <td>Encarregado</td>
+                <td>Tratamento de Piso</td>
+                <td>Presença</td>
+            </tr>
+
+            <tr class="ctratamento">
+                <td>Luiz</td>
+                <td>ASG</td>
+                <td>Tratamento de Piso</td>
+                <td>Presença</td>
+            </tr>
+
+            <tr class="ctratamento">
+                <td>Daniel</td>
+                <td>Encarregado</td>
+                <td>Tratamento de Piso</td>
+                <td>Férias</td>
+            </tr>
+
+            <tr class="ctratamento">
+                <td>Anne</td>
+                <td>ASG</td>
+                <td>Tratamento de Piso</td>
+                <td>Presença</td>
+            </tr>
+
+            <tr class="coringa">
+                <td>Salvador</td>
+                <td>ASG</td>
+                <td>Docas/Tapetes/Piso</td>
+                <td>Presença</td>
+                
+            </tr>
+
+            <tr class="coringa">
+                <td>Verlísio</td>
+                <td>ASG</td>
+                <td>Coleta</td>
+                <td>Presença</td>
+            </tr>
+
+            <tr class="coringa">
+                <td>Samuel</td>
+                <td>ASG</td>
+                <td>Piso</td>
+                <td>Presença</td>
+            </tr>
+
+            <tr class="operador">
+                <td>Moisés</td>
+                <td>ASG</td>
+                <td>Operador de Máquina</td>
+                <td>Presença</td>
+            </tr>
+
+            <tr class="operador">
+                <td>Rogério</td>
+                <td>ASG</td>
+                <td>Operador de Máquina</td>
+                <td>Presença</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+                
+        </tfoot>
+    </table>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias nobis illum doloremque? Rem, labore quis explicabo quaerat beatae facilis reiciendis dolor, eos amet neque quasi dolorem veniam. Id, iusto porro!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat mollitia sequi iste beatae similique accusantium a. Sit tenetur veniam hic expedita maxime ad nobis inventore nihil quaerat aut. Aperiam, debitis.</p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto impedit quos debitis repellendus ad eum dolor ab exercitationem a eaque qui consequatur tempora, sequi nobis, similique voluptates commodi aperiam possimus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum adipisci perferendis assumenda dolorem praesentium magni eum labore eveniet ipsam sunt eaque ab tempore earum quisquam quas, cupiditate ut maiores molestias!Lorem
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur molestias sunt, rerum possimus at unde eligendi maiores? Modi neque doloremque debitis soluta illo, culpa quis dignissimos magnam quo in nulla?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam voluptatibus quae velit officiis eum fugit illum quibusdam fugiat labore blanditiis minus sequi eveniet, voluptate aliquam eius sit ad ipsa dolorum.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima excepturi, rem autem, repudiandae possimus facilis quibusdam mollitia porro, est inventore qui deserunt. Minus molestias culpa sit perspiciatis officiis quis sunt!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem porro dolorum aliquam natus eum, enim necessitatibus corporis ullam veritatis et dicta aspernatur exercitationem alias ab quas dolor modi delectus facere.
+        
+    </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, molestiae commodi. Nam libero aperiam aspernatur, deleniti eveniet pariatur praesentium maiores at sit explicabo, iure, perspiciatis modi! Magni dicta cum nemo?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos fuga deleniti esse in aperiam quam minus aliquam deserunt, repudiandae exercitationem earum autem iusto pariatur molestiae accusantium laboriosam maiores omnis ut.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias possimus sint consequatur expedita quis corporis sit delectus ipsum tenetur, magnam ut quaerat rerum, assumenda eaque odit ratione alias nobis nostrum.</p>
+</body>
+</html>

@@ -4,22 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos de iframe</title>
+    <style>
+        #texto {
+            text-align: center;
+            
+        }
+
+        #tabela {
+            display: block;
+            margin: auto;
+            width: 550px;
+            height: 500px;
+        }
+    </style>
 </head>
 <body>
     <h1>Testando o uso de um iframe</h1>
-    <p>Acessando o site do 
-        
-        <iframe src="imagens/pattern001.png" frameborder="0">
-
-        </iframe>
-        David para aprender a programar.</p>
-
-        <p>O repositório do David
-
-            <iframe src="outra pagina.html" frameborder="0" scrolling="yes">
+    
+            <iframe id="tabela" src="paginas-extras/tabela002.html" frameborder="0" scrolling="yes">
             
             </iframe>
-            Também é legal!
-        </p>
+            
+            <p class="error">Infelizmente seu navegador não é compatível com este recurso</p>
 </body>
 </html>
