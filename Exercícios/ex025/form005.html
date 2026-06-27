@@ -8,6 +8,31 @@
 <body>
     <h1>Teste de formulário</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            
+            <input type="radio" name="sexo" id="isxmas">
+            <label for="isxmas">Masculino</label>
+
+            <input type="radio" name="sexo" id="isxfem" checked>
+            <label for="isxfem">Feminino</label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Esporte Favoritos</legend>
+            <input type="checkbox" name="esfut" id="iesfut" required checked>
+            <label for="iesfut">Futebol</label> <br>
+            
+            <input type="checkbox" name="esbas" id="iesbas" required> <label for="iesbas">Basquete</label> <br>
+
+
+            <input type="checkbox" name="esnat" id="iesnat" required> <label for="iesnat">Natação</label> <br>
+
+
+            <input type="checkbox" name="esten" id="iesten" required> <label for="iesten">Tênis</label>
+
+        </fieldset>
 
         <p>
             <input type="submit" value="Enviar">
