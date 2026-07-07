@@ -11,9 +11,14 @@
     menu ul li {
         display: inline-block;
     }
-}
+
+    menu a {
+        border-top: none;
+        border-radius: 5px 5px 0px 0px;
+    }
 
 main {
-    max-width: 992px;
+    width: 992px;
     
+}
 }
