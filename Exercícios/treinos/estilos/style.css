@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* Configurações gerais */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+
+@media screen and (orientation: portrait) {
+    body {
+        background-color: aqua;
+        color: black;
+    }
+
+}
+  
