@@ -16,12 +16,29 @@ main {
     
     height: 100%;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-around;
+    align-content:center;
     
     
 }
 
+header {
+    height: 400px;
+    order: 0;
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    background-color: lightseagreen;
+}
+
 section#conteudo {
+    order: -1;
+    flex-basis: 600px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    height: 400px;
+    
     background-color: rgba(0, 0, 0, 0.288);
 }
+
