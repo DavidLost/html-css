@@ -10,35 +10,48 @@ html,
 body {
     width: 100vw;
     height: 100vh;
+
+    
 }
 
 main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+#container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     
-    height: 100%;
+    
+    height: 600px;
+    
+
+    
+}
+
+#header-login {
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 823px;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-content:center;
-    
-    
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
-header {
-    height: 400px;
-    order: 0;
-    flex-basis: 200px;
-    flex-grow: 1;
-    flex-shrink: 0;
-    background-color: lightseagreen;
+#email-input {
+    flex: 1;
 }
 
-section#conteudo {
-    order: -1;
-    flex-basis: 600px;
-    flex-grow: 1;
-    flex-shrink: 0;
-    height: 400px;
+#senha-input {
+    flex: 1;
     
-    background-color: rgba(0, 0, 0, 0.288);
 }
 

@@ -9,23 +9,25 @@
 </head>
 <body>
     <main>
-        <header>
-            <nav>
-                <ul>
-                    <li>Contato</li>
-                    <li>Sobre</li>
-                    <li>Suporte</li>
-                </ul>
-            </nav>
-        </header>
-        <section id="conteudo">
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit cumque maxime sit. Repellat saepe quibusdam totam facere deserunt. Debitis accusantium, at quibusdam nam esse iste ut blanditiis voluptatem cupiditate odio?</p>
+        <div id="container">
+            <div id="header-login">
+                <h1>Página de Login</h1>
             </div>
-            
-        </section>
-
-        
+            <form action="cadastro.php" method="post">
+                <div id="email-input" class="input-login">
+                    <label for="iemail">E-mail</label>
+                    <input type="email" name="email" id="iemail" required maxlength="30" placeholder="Digite seu @mail.com">
+                </div>
+                <div id="senha-input">
+                    <label for="isenha">Senha</label>
+                    <input type="password" name="senha" id="isenha" required minlength="8" maxlength="30" placeholder="Digite sua senha">
+                </div>
+                <button type="submit">Enviar</button>
+                <a href="#">
+                    <p>Esqueceu sua senha?</p>
+                </a>
+            </form>
+        </div>
     </main>
 </body>
 </html>
