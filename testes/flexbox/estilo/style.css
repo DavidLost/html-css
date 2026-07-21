@@ -14,44 +14,32 @@ body {
     
 }
 
-main {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-}
-
 #container {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    
-    
-    height: 600px;
-    
-
-    
-}
-
-#header-login {
-    height: 50px;
-    margin-bottom: 20px;
-}
-
-form {
-    width: 823px;
+    width: 800px;
+    height: 200px;
+    background-color: black;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: row;
+    align-content: center;
+    flex-flow: row wrap;
+
 }
 
-#email-input {
-    flex: 1;
+.itens {
+background-color: lightblue;
+padding: 20px;
+margin: 20px;
+
 }
 
-#senha-input {
-    flex: 1;
-    
+.itens:nth-child(1) {
+    flex: 1 1  200px;
 }
 
+.itens:nth-child(2) {
+    flex: 1 1  200px;
+}
+
+.itens:nth-child(3) {
+    flex: 1 1  200px;
+}
