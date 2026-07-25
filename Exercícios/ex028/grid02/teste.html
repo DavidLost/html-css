@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de grid layout</title>
+    <style>
+        #container {
+            display: grid;
+            border: 2px dashed blue;
+            grid-template: repeat(3,1fr) / repeat(3,2fr);
+            gap: 10px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <nav>
+                <ul>
+                    <li>Sobre</li>
+                    <li>Contato</li>
+                    <li>Fale-conosco</li>
+                </ul>
+            </nav>
+
+            
+        </header>
+        <h1>Seja Bem vindo!</h1>
+        <h2>Oi</h2>
+        <h2>Olá</h2>
+    </div>
+</body>
+</html>
